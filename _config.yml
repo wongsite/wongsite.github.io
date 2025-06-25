@@ -13,12 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: WongSite
+email: juliaewong@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my engineering portfolio. This website showcases selected
+  projects and research in electrical engineering. From hardware design
+  and firmware development to development to machine learning and
+  biomedical applications, each project reflects hands-on experience,
+  technical depth, and commitment to real-world problem solving.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
@@ -58,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Julia Wong"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
