@@ -115,3 +115,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+nav:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects
+  - title: "Research"
+    url: /research
