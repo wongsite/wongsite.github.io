@@ -43,43 +43,28 @@ nav a:hover {
 }
 
 .timeline-sidebar {
-  width: 160px;
+  width: 180px;
+  padding: 1.5em;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 100px;
-  padding-right: 20px;
+  margin-left: -10px;
+  margin-right: 30px;
 }
 
 .timeline-sidebar ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 1em 0 0;
   position: relative;
-}
-
-.timeline-sidebar ul::before {
-  content: '';
-  position: absolute;
-  left: 16px;
-  top: 0;
-  width: 4px;
-  height: 100%;
-  background: #e0e0e0;
 }
 
 .timeline-sidebar li {
+  margin-bottom: 0.75em;
   position: relative;
-  margin-bottom: 40px;
-  padding-left: 40px;
-}
-
-.timeline-sidebar .dot {
-  width: 12px;
-  height: 12px;
-  background-color: #2a7ae2;
-  border-radius: 50%;
-  position: absolute;
-  left: 10px;
-  top: 2px;
+  padding-left: 20px;
 }
 
 .timeline-sidebar a {
