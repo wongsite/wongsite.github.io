@@ -92,3 +92,34 @@ img {
   height: auto;
   margin: 1em 0;
 }
+
+.project-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.project-carousel a {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.project-carousel img {
+  height: 100px;
+  width: auto;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.project-carousel img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project-section {
+  margin-top: 3em;
+}
