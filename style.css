@@ -75,12 +75,16 @@ nav a:hover {
 .timeline-sidebar a {
   text-decoration: none;
   color: inherit;
-  font-size: 0.95em;
-  transition: color 0.2s ease;
+  font-weight: normal;
+  display: block;
+  padding: 0.25em 0;
 }
 
 .timeline-sidebar a:hover {
-  color: #2a7ae2;
+  background-color: #eaeaea;
+  border-radius: 4px;
+  padding-left: 0.5em;
+  color: #000000;
 }
 
 .project-content {
