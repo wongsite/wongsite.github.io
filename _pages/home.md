@@ -3,10 +3,6 @@ layout: splash
 title: "Welcome"
 permalink: /
 author_profile: true
-header:
-  overlay_color: "#ffffff"
-  show_overlay_excerpt: false
-  show_nav: true
 ---
 
 
