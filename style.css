@@ -125,3 +125,13 @@ img {
   height: auto;
   margin: 1em 0;
 }
+
+.timeline-sidebar ul::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: #e0e0e0;
+}
